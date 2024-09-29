@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "hi"'                                                          sh 'echo"hi"'       (wrong)
+                sh 'echo "hi"'                                                         
             }
         }
         stage('Test') {
